@@ -10,8 +10,8 @@ pp nds
 result = {}
 row_index = 0 
 while row_index < nds.length do 
-d_names = nds[row_index][:name]
-result[d_names] = gross_for_director(d_names)
+d_names = nds[row_index]
+result[d_names][:name] = gross_for_director(d_names)
 row_index += 1
 end
 result 
