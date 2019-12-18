@@ -9,7 +9,7 @@ def directors_totals(nds)
 pp nds 
 result = {}
 row_index = 0 
-while row_index < nds[:name] do 
+while row_index < nds.length do 
 d_names = nds[:name][row_index]
 
 end
